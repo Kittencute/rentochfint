@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rent & Fint</title>
+  <link href="static/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="static/images/R512x512.png">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="nav-row nav-logo-row">
+        <div class="nav-logo">Rent & Fint</div>
+      </div>
+      <div class="nav-row center-row mobile-screen">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#" id="homeLink">Hem</a></li>
+          <li><a href="#" id="servicesLink">Tjänster</a></li>
+          <li><a href="#" id="pricesLink">Priser</a></li>
+          <li><a href="#" id="contactLink">Kontakt</a></li>
+          <li><a href="#" id="faqLink">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="nav-row">
+        <div class="nav-links-lang mobile-screen">
+          <div class="line-container">
+            <a id="sweToggle" class="lang-toggle">Swe</a>
+            <span class="vertical-line"></span>
+            <a id="engToggle" class="lang-toggle">Eng</a>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <img src="images/reorder-option.png" alt="Menu" class="nav-menu-icon" id="menu-icon">
+        </div>
+      </div>
+    </div>
+    <div class="popup-overlay" id="popup-overlay"></div>
+    <div class="popup-links" id="popup">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#" id="popuphomeLink">Hem</a></li>
+        <li><a href="#" id="popupservicesLink">Tjänster</a></li>
+        <li><a href="#" id="popuppricesLink">Priser</a></li>
+        <li><a href="#" id="popupcontactLink">Kontakt</a></li>
+        <li><a href="#" id="popupfaqLink">FAQ</a></li>
+        <div class="line-container">
+          <a id="popupsweToggle" class="lang-toggle">Swe</a>
+          <span class="vertical-line"></span>
+          <a id="popupengToggle" class="lang-toggle">Eng</a>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <main class="body">
+    <section class="wrapper hero">
+      <div class="container">
+        <div class="content">
+          <h1 id="hero-title">Ditt personliga städföretag</h1>
+          <p class="hero-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <div class="cta-button-container">
+            
+            <button id="call-us" class="cta-button">Ring oss</button>
+            <button id="email-us" class="cta-button button-hero">
+              E-mail
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper bg-prim-lig text-c">
+      <div class="third-container">
+        <div class="third-content feature">
+          <img
+            src="images/earth-globe.png"
+            alt="Menu"
+            class="feature-icon"
+          />
+          <h5 id="first-feature" class="prim-dark">First feature</h5>
+          <p class="med-text sm">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
+          </p>
+        </div>
+      </div>
+      <div class="third-container">
+        <div class="third-content feature">
+          <img
+            src="images/shopping-cart-black-shape.png"
+            alt="Menu"
+            class="feature-icon"
+          />
+          <h5 id="second-feature" class="prim-dark">Second feature</h5>
+          <p class="med-text sm">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
+          </p>
+        </div>
+      </div>
+      <div class="third-container">
+        <div class="third-content feature">
+          <img
+            src="images/group-profile-users.png"
+            alt="Menu"
+            class="feature-icon"
+          />
+          <h5 id="third-feature" class="prim-dark">Third feature</h5>
+          <p class="med-text sm">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper">
+      <div class="container">
+        <div class="content">
+          <h2 class="prim-dark">
+            Exercitation veniam consequat sunt nostrud amet.
+          </h2>
+          <p class="med-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper bg-prim-lig">
+      <div class="half-container">
+        <div class="half-content">
+          <h3 id="right-half" >Right half</h3>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div class="half-container">
+        <div class="half-content">
+          <h3 id="left-half" class="prim-med">Left Half</h3>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper bg-prim-lig text-c">
+      <div class="half-container">
+        <div class="half-content">
+          <h3 id="right-half2" class="prim-med">Right Half</h3>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div class="half-container">
+        <div class="half-content">
+          <h3 id="left-half2">Left Half</h3>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper">
+      <div class="half-container">
+        <div class="half-content">
+          <h3 id="right-half3">Right half</h3>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div class="half-container" style="background-color: var(--primary-light)">
+        <div class="pic-content">
+          <img
+            src="images/picture.png"
+            alt="Menu"
+            class="feature-icon"
+          />
+          <h3 id="placeholer-picture" class="prim-med">Platshållarbild</h3>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper">
+      <div class="half-container" style="background-color: var(--primary-light)">
+        <div class="pic-content">
+          <img
+            src="images/picture.png"
+            alt="Menu"
+            class="feature-icon"
+          />
+          <h3 id="placeholer-picture2" class="prim-med">Platshållarbild</h3>
+        </div>
+      </div>
+      <div class="half-container text-c">
+        <div class="half-content">
+          <h3 id="left-half3">Left Half</h3>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper bg-prim-lig top">
+      <div class="third-container">
+        <div class="third-content">
+          <h4 id="first-third" class="prim-dark">First Third</h4>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div class="third-container">
+        <div class="third-content">
+          <h4 id="second-third" class="prim-dark">Second Third</h4>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div class="third-container">
+        <div class="third-content">
+          <h4 id="third-third" class="prim-dark">Third Third</h4>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <p class="med-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">
+        <div class="third-container">
+          <div class="third-content sm">
+            <h6 id="contact-us">Kontakta oss</h6>
+            <p id="email">E-post:</p>
+            <a id="email-link" href="mailto:info@example.com">info@example.com</a>
+            <p id="phone">Telefon: </p>
+            <a id="phone-link" href="tel:+1234567890">(123) 456-7890</a>
+          </div>
+        </div>
+        <div class="third-container">
+          <div class="third-content">
+            <h6 id="address">Adress</h6>
+            <p id="street">123 Huvudgata</p>
+            <p id="city-state">Stad, Stat 12345</p>
+          </div>
+        </div>
+        <div class="third-container">
+          <div class="third-content">
+            <h6 id="social-media">Sociala medier</h6>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper fm">
+        <div class="third-container">
+          <div class="third-content">
+            <h6 id="payment-methods">Betalningsmetoder</h6>
+            <img
+              src="images/payment.png"
+              alt="Meny"
+              class="payment-icon"
+            />
+          </div>
+        </div>
+        <div class="third-container">
+          <div class="third-content">
+            <h6 id="working-hours">Arbetstider</h6>
+            <p id="weekdays">Måndag - Fredag: 9:00 - 18:00</p>
+            <p id="saturday">Lördag: 10:00 - 16:00</p>
+            <p id="sunday">Söndag: Stängt</p>
+          </div>
+        </div>
+        <div class="third-container">
+          <div class="third-content">
+            <h6 id="our-partners">Våra partners</h6>
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="#">C</a>
+          </div>
+        </div>
+      </div>
+      <div class="fm last">
+        <p id="rights-reserved">© 2023 Din Städapp. Alla rättigheter förbehållna.</p>          
+        <div class="line-container">
+            <a id="privacy-policy" href="#">Integritetspolicy</a>  
+            <span class="vertical-line"></span>
+            <a id="terms-of-use" href="#">Användarvillkor</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="static/rentochfint.js"></script>
+</body>
+</html>
